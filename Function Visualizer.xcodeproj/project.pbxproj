@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		AE10394D24D0D36B00BC446D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10394C24D0D36B00BC446D /* AppDelegate.swift */; };
 		AE10394F24D0D36B00BC446D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10394E24D0D36B00BC446D /* SceneDelegate.swift */; };
-		AE10395124D0D36B00BC446D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10395024D0D36B00BC446D /* ViewController.swift */; };
 		AE10395424D0D36B00BC446D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10395224D0D36B00BC446D /* Main.storyboard */; };
 		AE10395624D0D36F00BC446D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10395524D0D36F00BC446D /* Assets.xcassets */; };
 		AE10395924D0D36F00BC446D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10395724D0D36F00BC446D /* LaunchScreen.storyboard */; };
 		AE10396424D0D36F00BC446D /* Function_VisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10396324D0D36F00BC446D /* Function_VisualizerTests.swift */; };
 		AE10396F24D0D37000BC446D /* Function_VisualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10396E24D0D37000BC446D /* Function_VisualizerUITests.swift */; };
+		AE10397E24D0D4E000BC446D /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10397D24D0D4E000BC446D /* GraphViewController.swift */; };
+		AE10398124D0D7F400BC446D /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10398024D0D7F400BC446D /* Math.swift */; };
+		AE10398524D0DED100BC446D /* CGPoint+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10398424D0DED100BC446D /* CGPoint+Math.swift */; };
+		AE10398824D0E29600BC446D /* UIImageView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10398724D0E29600BC446D /* UIImageView+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		AE10394924D0D36B00BC446D /* Function Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Function Visualizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE10394C24D0D36B00BC446D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE10394E24D0D36B00BC446D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE10395024D0D36B00BC446D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE10395324D0D36B00BC446D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE10395524D0D36F00BC446D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE10395824D0D36F00BC446D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,11 @@
 		AE10396A24D0D37000BC446D /* Function VisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Function VisualizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE10396E24D0D37000BC446D /* Function_VisualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function_VisualizerUITests.swift; sourceTree = "<group>"; };
 		AE10397024D0D37000BC446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE10397D24D0D4E000BC446D /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		AE10398024D0D7F400BC446D /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		AE10398424D0DED100BC446D /* CGPoint+Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Math.swift"; sourceTree = "<group>"; };
+		AE10398724D0E29600BC446D /* UIImageView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Utility.swift"; sourceTree = "<group>"; };
+		AE2B2B6E24D1CC070096EBA4 /* Function Visualizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Function Visualizer.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +106,12 @@
 		AE10394B24D0D36B00BC446D /* Function Visualizer */ = {
 			isa = PBXGroup;
 			children = (
+				AE2B2B6E24D1CC070096EBA4 /* Function Visualizer.entitlements */,
 				AE10394C24D0D36B00BC446D /* AppDelegate.swift */,
 				AE10394E24D0D36B00BC446D /* SceneDelegate.swift */,
-				AE10395024D0D36B00BC446D /* ViewController.swift */,
+				AE10398624D0E25F00BC446D /* Image Utility */,
+				AE10397F24D0D57900BC446D /* Math */,
+				AE10397C24D0D3E800BC446D /* View Controllers */,
 				AE10395224D0D36B00BC446D /* Main.storyboard */,
 				AE10395524D0D36F00BC446D /* Assets.xcassets */,
 				AE10395724D0D36F00BC446D /* LaunchScreen.storyboard */,
@@ -126,6 +136,31 @@
 				AE10397024D0D37000BC446D /* Info.plist */,
 			);
 			path = "Function VisualizerUITests";
+			sourceTree = "<group>";
+		};
+		AE10397C24D0D3E800BC446D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE10397D24D0D4E000BC446D /* GraphViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AE10397F24D0D57900BC446D /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				AE10398024D0D7F400BC446D /* Math.swift */,
+				AE10398424D0DED100BC446D /* CGPoint+Math.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		AE10398624D0E25F00BC446D /* Image Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AE10398724D0E29600BC446D /* UIImageView+Utility.swift */,
+			);
+			path = "Image Utility";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE10395124D0D36B00BC446D /* ViewController.swift in Sources */,
+				AE10397E24D0D4E000BC446D /* GraphViewController.swift in Sources */,
 				AE10394D24D0D36B00BC446D /* AppDelegate.swift in Sources */,
+				AE10398524D0DED100BC446D /* CGPoint+Math.swift in Sources */,
+				AE10398824D0E29600BC446D /* UIImageView+Utility.swift in Sources */,
 				AE10394F24D0D36B00BC446D /* SceneDelegate.swift in Sources */,
+				AE10398124D0D7F400BC446D /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,15 +472,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Function Visualizer/Function Visualizer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JDSTZ7K2MV;
 				INFOPLIST_FILE = "Function Visualizer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "martin.Function-Visualizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,15 +493,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Function Visualizer/Function Visualizer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JDSTZ7K2MV;
 				INFOPLIST_FILE = "Function Visualizer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "martin.Function-Visualizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
