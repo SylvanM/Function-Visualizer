@@ -28,3 +28,7 @@ Shown below is the graph of the complex function f(z) = z^5. You can even see it
 For this next one, I'm afraid I didn't record the function I entered (unfortunate, since this graph is cool) but I noticed that the pattern below is commonly found in nature in two circumstances. 1) as a moire pattern when two grids interfere (try holding your phone camera up to your phone screen to see it) and 2) whenever I hold my grid-woven placemet up behind the water in my glass, and the grid is distorted. I'm fascinated as to what the connection here is!
 
 ![Isn't this pattern cool?](Images/smooth_trig.png)
+
+This next one is the same function as above, but I did something different and quirky for fun. Instead of graphing the output plane, I took every output vector and subtracted the input vector to get what I call the "change vector," and graphed the colors for the change vectors instead:
+
+![It looks quite glossy](Images/change_vector.png)
