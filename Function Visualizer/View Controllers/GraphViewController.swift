@@ -10,6 +10,10 @@ import UIKit
 
 class GraphViewController: UIViewController {
     
+    // MARK: Constants
+
+    var maxWindow: (width: Double, height: Double)?
+    
     // MARK: Properties
     
     var math = Math()
@@ -18,6 +22,8 @@ class GraphViewController: UIViewController {
     
     /// The `UIImageView` that displays the graph
     @IBOutlet weak var graphImageView: UIImageView!
+    
+    @IBOutlet weak var zoomStepper: UIStepper!
     
     /// The height, in pixels, of the graph image view
     var height: Int {
@@ -62,6 +68,14 @@ class GraphViewController: UIViewController {
         
         self.dismiss(animated: true)
         
+    }
+    
+    // MARK: Actions
+    
+    @IBAction func zoomStepperUpdated(_ sender: Any) {
+
+//        window.domain.lowerBound =
+
     }
 
 }

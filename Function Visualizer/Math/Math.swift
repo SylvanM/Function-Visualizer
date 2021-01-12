@@ -23,7 +23,7 @@ class Math {
     
     // MARK: Properties
     
-    var function: Function = { CGPoint(x: atan2($0.y, $0.x), y: $0.y * $0.x) }
+    var function: Function = { $0 } //{ CGPoint(x: atan2($0.y, $0.x), y: $0.y * $0.x) }
     
     // MARK: Methods
     
