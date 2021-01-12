@@ -21,3 +21,6 @@ As said before, I'm going based off the 3b1b video, but here is a brief summary.
 
 ## Here are some pretty examples! (and some interesting properties I noticed)
 
+Shown below is the graph of the complex function f(z) = z^5. You can even see its complex roots as the black spots! How cool is that?
+
+![Simple Complex Function](Images/simple_complex.png)
