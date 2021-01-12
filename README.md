@@ -24,3 +24,7 @@ As said before, I'm going based off the 3b1b video, but here is a brief summary.
 Shown below is the graph of the complex function f(z) = z^5. You can even see its complex roots as the black spots! How cool is that?
 
 ![Simple Complex Function](Images/simple_complex.png)
+
+For this next one, I'm afraid I didn't record the function I entered (unfortunate, since this graph is cool) but I noticed that the pattern below is commonly found in nature in two circumstances. 1) as a moire pattern when two grids interfere (try holding your phone camera up to your phone screen to see it) and 2) whenever I hold my grid-woven placemet up behind the water in my glass, and the grid is distorted. I'm fascinated as to what the connection here is!
+
+![Isn't this pattern cool?](Images/smooth_trig.png)
